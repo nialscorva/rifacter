@@ -1,0 +1,12 @@
+{
+  "name": "rift-extendedToolTips-discovery-extractor",
+  "version": "0.0.1",
+  "description": "Extracts the RIFT discovery database for use with the ExtendedToolTips addon.",
+  "author": "Jason Wagner",
+  "dependencies": {
+    "xml2js": "0.4.x",
+    "node-xml": "*",
+    "es6-promise": "~1.0.0",
+    "handlebars": "~2.0.0"
+  }
+}

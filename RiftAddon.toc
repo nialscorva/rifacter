@@ -1,0 +1,36 @@
+Identifier = "Rifact"
+
+Name = {
+    English = "Rifact"
+}
+
+NameShort = "Rifact"
+
+Description = {
+    English = "A fact database for rift items"
+}
+
+Author = "Jason Wagner"
+Email = "jason@nialscorva.net"
+
+SavedVariables = {
+	Rifact_itemInfoDB = "account",
+	Rifact_config="account"
+}
+
+Version = "1.0"
+Environment = "3.0"
+
+Dependencies = {
+	LibString = {"required", "before"},
+	ApiBrowser = {"optional","before"},
+}
+
+RunOnStartup = {
+    "main.lua",
+		"coreFacts.lua",
+		"debugFacts.lua",
+		"toolTipPopup.lua",
+		"ApiBrowser.lua",
+		"crafting.lua",
+}
